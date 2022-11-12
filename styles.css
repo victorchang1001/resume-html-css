@@ -1,6 +1,83 @@
-/* main {
-    border: 1px solid black;
+body {
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    width: 80%;
     margin: 0 auto;
-    width: 2480px;
-    height: 3508px;
-} */
+    border: 1px solid black;
+    /* width: 2480px;
+    height: 3508px; */
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+* {
+    left: 10%;
+}
+
+.name-info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.name-info-color {
+    position: absolute;
+    background-color: rgba(46, 66, 109, 0.918);
+    height: 17%;
+    width: 80%;
+    z-index: -87;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 199, 212);
+    color: rgb(28, 58, 87);
+    border-radius: 8px;
+    text-align: center;
+    height: 50px;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.section-title {
+    border-bottom: 1px solid gray;
+    color: rgb(65, 110, 154);
+}
+
+.edu-title, .cert-title {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(201, 215, 234);
+    margin-bottom: 5px;
+}
+
+
+.bold-font {
+    font-weight: 600;
+    font-size: 1.05em;
+}
+
+.small-font {
+    font-weight: 350;
+    font-size: 0.87em;
+}
+
+ul {
+    margin-left: -10px;
+}
+
+li {
+    margin: 3px;
+    font-size: 0.95em;
+}
+
+i {
+    font-weight: 300;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
