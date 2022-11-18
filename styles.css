@@ -1,9 +1,9 @@
 body {
     padding: 0;
     font-family: Verdana, sans-serif;
-    width: 80%;
-    margin: 0 auto;
-    border: 1px solid black;
+    /* width: 95%; */
+    /* margin: 0 auto; */
+    /* border: 1px solid black; */
     /* width: 2480px;
     height: 3508px; */
 }
@@ -13,7 +13,7 @@ main {
     margin: 0 auto;
 }
 
-* {
+*:not(.know-list-wrapper) {
     left: 10%;
 }
 
@@ -43,8 +43,28 @@ main {
     border-radius: 8px;
     text-align: center;
     height: 50px;
-    width: 98%;
+    width: 95%;
     margin: 0 auto;
+}
+
+.know-list-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-left: -45px;
+}
+
+.know-list {
+    margin: 0;
+}
+
+.know-list-item {
+    list-style: none;
+}
+
+.know-list-item::before {
+    content: '✔  ';
 }
 
 .section-title {
